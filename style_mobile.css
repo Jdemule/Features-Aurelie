@@ -1,0 +1,51 @@
+header {
+background: content-box radial-gradient(rgb(50, 63, 147),skyblue);
+height: auto;
+
+}
+
+header h1 {
+    color: rgb(250, 243, 243);
+    text-align: center;
+
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    color: #333333;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    border-radius: 30px;
+    background-color: #eeeeee;
+  }
+  
+  nav a:hover {
+    background-color: yellow;
+
+  }
+
+  h1:hover {
+   color: yellow;
+  }
+   
+  
+  
+  
+  
